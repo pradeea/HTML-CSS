@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <style>
+      body{
+        background-color: black;
+      }
+      div.main{
+        display:flex;
+        margin: auto;
+        border: white;
+        padding:25%;
+        
+        
+      }
+      div.container{     
+        
+        background-color: grey;  
+        position: relative;
+        display:grid;
+        grid-template-columns: 30% auto 30% ;
+       
+      }
+      div.box{
+        text-align: center;       
+        height: 200px;
+        color: white;
+        border: 2px solid white;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+    </style>
+    <meta charset="utf-8">
+    <title>JUST A AUSTRALIAN DEMO </title>
+  
+  </head>
+  <body>
+    <div class="main">
+    <div class="container">
+
+      <div class="box">
+            <h1 > BOX 1!</h1>          
+      </div>
+      <div class="box">
+            <h1 >BOX2 !</h1>
+            
+      </div>
+      <div class="box">
+        <h1 > BOX3 !</h1>      
+       </div>
+    </div>
+    </div>
+    
+
+    
+
+  </body>
+</html>
